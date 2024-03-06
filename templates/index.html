@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form action="/calculate" method="post">
+        <input type="text" name="num1" placeholder="Enter first number" required>
+        <select name="operator">
+            <option value="+" selected>+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" name="num2" placeholder="Enter second number" required>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
